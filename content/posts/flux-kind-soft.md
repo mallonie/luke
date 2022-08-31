@@ -89,7 +89,7 @@ You should also be able to ssh to the Docker Soft Serve:
 
 And you should be presented with a TUI looking something like this:
 
-![Soft Serve SSH TUI showing Home and brief message to clone the configuration repository](https://i.imgur.com/sRzCm5x.png)
+![Soft Serve SSH TUI showing Home and brief message to clone the configuration repository](/images/ss-home.png "Soft Serve SSH TUI showing Home and brief message to clone the configuration repository")
 
 At this point we have the basics of what we need. You will want to clone the configuration
 repository from Soft Serve:
@@ -387,7 +387,7 @@ In order to see this change in the SSH TUI you will need to restart the docker
 container e.g. `docker restart soft-serve`. Now when you ssh into Soft Serve
 running on your local docker install you will see something like the following:
 
-![SSH TUI View of the Flux Repo README we just added to the repo](https://i.imgur.com/bDIA7Cq.png)
+![SSH TUI View of the Flux Repo README we just added to the repo](/images/ss-flux.png "SSH TUI View of the Flux Repo README we just added to the repo")
 
 The same can be done with the instance running on the `Kind` Cluster. Restart the
 running `Pods` e.g. `kubectl --context kind-dev -n soft-serve delete pods -l app=soft-serve`.
