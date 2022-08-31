@@ -2,4 +2,4 @@
 This article covers getting a local Kind cluster setup with Flux and the self hosted git server Soft Serve.
 Requirements You will need to have the following installed:
 docker installation kubectl installation kustomize installation flux installation kind installation soft installation Assumptions I am assuming the following things:
-Running on Linux Familiar with: Docker YAML Git Kind kubectl Let&amp;rsquo;s get Started We need to run two copies of Soft Serve in order to be able to access and configure the software.</description></item></channel></rss>
+Running on Linux Familiar with: Docker YAML Git Kind kubectl Let&amp;rsquo;s get Started We need to run two copies of Soft Serve in order to be able to access and configure the software.</description></item><item><title>Mechanical Keyboard</title><link>https://luke.mallon.ie/posts/mechanical-keyboard/</link><pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate><guid>https://luke.mallon.ie/posts/mechanical-keyboard/</guid><description>An outline of the process of a decision on mechanical keyboards</description></item></channel></rss>
