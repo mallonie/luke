@@ -22,7 +22,7 @@ that are used by Soft Serve as follows:</p><div class=highlight><pre tabindex=0 
 </span></span><span style=display:flex><span>├── repos <span style=color:#75715e># Created by Soft Serve</span>
 </span></span><span style=display:flex><span>└── ssh   <span style=color:#75715e># Created by Soft Serve</span>
 </span></span></code></pre></div><p>You should also be able to ssh to the Docker Soft Serve:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>❯ ssh localhost -p <span style=color:#ae81ff>23231</span>
-</span></span></code></pre></div><p>And you should be presented with a TUI looking something like this:</p><p><img loading=lazy src=https://i.imgur.com/sRzCm5x.png alt="Soft Serve SSH TUI showing Home and brief message to clone the configuration repository"></p><p>At this point we have the basics of what we need. You will want to clone the configuration
+</span></span></code></pre></div><p>And you should be presented with a TUI looking something like this:</p><p><img loading=lazy src=/images/ss-home.png alt="Soft Serve SSH TUI showing Home and brief message to clone the configuration repository" title="Soft Serve SSH TUI showing Home and brief message to clone the configuration repository"></p><p>At this point we have the basics of what we need. You will want to clone the configuration
 repository from Soft Serve:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>❯ git clone ssh://localhost:23231/config
 </span></span><span style=display:flex><span>Cloning into <span style=color:#e6db74>&#39;config&#39;</span>...
 </span></span><span style=display:flex><span>remote: Enumerating objects: 38, <span style=color:#66d9ef>done</span>.
@@ -239,7 +239,7 @@ setup of git and add a README file to the flux repo, something simple e.g.:</p><
 </span></span><span style=display:flex><span> create mode <span style=color:#ae81ff>100644</span> README.md
 </span></span></code></pre></div><p>In order to see this change in the SSH TUI you will need to restart the docker
 container e.g. <code>docker restart soft-serve</code>. Now when you ssh into Soft Serve
-running on your local docker install you will see something like the following:</p><p><img loading=lazy src=https://i.imgur.com/bDIA7Cq.png alt="SSH TUI View of the Flux Repo README we just added to the repo"></p><p>The same can be done with the instance running on the <code>Kind</code> Cluster. Restart the
+running on your local docker install you will see something like the following:</p><p><img loading=lazy src=/images/ss-flux.png alt="SSH TUI View of the Flux Repo README we just added to the repo" title="SSH TUI View of the Flux Repo README we just added to the repo"></p><p>The same can be done with the instance running on the <code>Kind</code> Cluster. Restart the
 running <code>Pods</code> e.g. <code>kubectl --context kind-dev -n soft-serve delete pods -l app=soft-serve</code>.
 Once the <code>Pods</code> have been recreated you can port forward to one of the running <code>Pods</code>
 e.g. <code>kubectl --context kind-dev -n soft-serve port-forward soft-serve-786fb9c9f8-25wkc 23232:23231</code>
