@@ -50,11 +50,11 @@ keep looking.
 In looking around I saw some really nice keyboards but nothing that grabbed me
 the way the Ergodox did.
 
-![/r/MechanicalKeyboards](/images/1 JbZxonOTrhq8pf3liJWn4w.jpeg "/r/MechanicalKeyboards")
+![/r/MechanicalKeyboards](/images/1%20JbZxonOTrhq8pf3liJWn4w.jpeg "/r/MechanicalKeyboards")
 
-![/r/MechanicalKeyboards](/images/1 M3yjZCeWwSmEejY9lyphxg.jpeg "/r/MechanicalKeyboards")
+![/r/MechanicalKeyboards](/images/1%20M3yjZCeWwSmEejY9lyphxg.jpeg "/r/MechanicalKeyboards")
 
-![/r/MechanicalKeyboards](/images/1 6sD2qjJrujgTbRo2pHSF4w.jpeg "/r/MechanicalKeyboards")
+![/r/MechanicalKeyboards](/images/1%206sD2qjJrujgTbRo2pHSF4w.jpeg "/r/MechanicalKeyboards")
 
 Then I stumbled across the [Infinity Ergodox](https://input.club/devices/infinity-ergodox/),
 created by [input.club](https://input.club/) as a fork of the Ergodox, it offers
