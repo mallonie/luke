@@ -1,5 +1,4 @@
 ---
-author: Luke Mallon
 title: Mechanical Keyboard
 date: 2016-10-25
 description: An outline of the process of a decision on mechanical keyboards
@@ -107,7 +106,7 @@ soldering as I hadn't done any in at least 15 years. It took a bit to get into
 it again and with some help from my parents who both have experience with it, I
 was able to get going.
 
-![Some of my practice, after I'd gotten better :D](/images/1%20SKvkpWIpmyzQWNVCA1X3Ug.jpeg "Some of my practice, after I'd gotten better :D")
+![Some of my practice, after I'd gotten better :grinning:](/images/1%20SKvkpWIpmyzQWNVCA1X3Ug.jpeg "Some of my practice, after I'd gotten better :grinning:")
 
 So I started putting it together. I went with the [65g Zealio](https://zealpc.net/products/zealio)
 switches and a blank, clear [DCS keycap](https://www.solutionsinplastic.com/wp-content/uploads/2017/05/DCSFamily.pdf)
@@ -174,7 +173,7 @@ Obviously it doesn't have to be an Ergodox, what ever you choose to go with whet
 it's 40%, 60% or the full 105 key keyboard, doing the research, purchasing and
 finally putting it together are all part of the fun and even if there are issues,
 like the chattering issue with Zealio, that can add to the [fun](https://dwarffortresswiki.org/index.php/DF2014:Losing)
-if you let it :D.
+if you let it :grinning:.
 
 
 ![A bheidh le leanúint…](/images/1%20_F2JG0zLHT3pKVorbtfyNw.jpeg "A bheidh le leanúint…")

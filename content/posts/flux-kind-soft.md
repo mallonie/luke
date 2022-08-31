@@ -1,7 +1,17 @@
 ---
 title: Flux with Kind and Soft Serve
-tags: [flux, fluxcd.io, cd, continuous delivery, charm.sh, soft-serve, kubernetes, k8s, docker]
+description: Setup a local Kubernetes Cluster with Flux and SoftServe
 date: 2022-02-28
+tags:
+- flux
+- fluxcd.io
+- cd
+- continuous delivery
+- charm.sh
+- soft-serve
+- kubernetes
+- k8s
+- docker
 ---
 
 > Originally post to [hackmd.io](https://hackmd.io/@nalum/flux-with-kind-and-soft-serve)
