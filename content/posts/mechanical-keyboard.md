@@ -34,7 +34,7 @@ and while it did allow for multiple layouts and the ability to disable certain
 keys, it wasn't as flexible as I wanted and it isn't really ergonomic. After all
 it is the traditional size and shape of keyboard.
 
-Ergodox (image taken from massdrop.com)
+![Ergodox (image taken from massdrop.com)](/images/ergodox.jpeg "Ergodox (image taken from massdrop.com)")
 
 So I kept looking around and found [many keyboards](https://www.google.ie/search?q=ergonomic+keyboards)
 of all shapes and sizes. Some of them interested me and some of them looked a bit
