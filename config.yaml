@@ -53,15 +53,6 @@ params:
   homeInfoParams:
     Title: Luke Mallon
     Content: Thingamabob
-      #profileMode:
-      #enabled: true
-      #title: Luke Mallon
-      #subtitle: Thingamabob
-      #buttons:
-      #- name: Posts
-      #url: /posts
-      #- name: Archives
-      #url: /archives
   socialIcons:
   - name: "github"
     url: "https://github.com/nalum"
