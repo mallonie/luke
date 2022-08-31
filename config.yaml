@@ -1,0 +1,78 @@
+baseURL: https://luke.mallon.ie/
+languageCode: en-ie
+title: Luke Mallon
+theme: PaperMod
+paginate: 5
+
+menu:
+  main:
+  - identifier: archives
+    name: Archives
+    url: /archives/
+    weight: 10
+  - identifier: search
+    name: Search
+    url: /search/
+    weight: 90
+  - identifier: posts
+    name: Posts
+    url: /posts/
+    weight: 20
+  - identifier: tags
+    name: Tags
+    url: /tags/
+    weight: 91
+
+params:
+  env: production
+  title: Luke Mallon
+  description: Thingamabob
+  author: 
+  - "Luke Mallon"
+  DateFormat: 2006-01-02
+  ShowShareButtons: true
+  ShareButtons:
+  - twitter
+  - linkedin
+  ShowReadingTime: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  defaultTheme: dark
+  profileMode:
+    enabled: true
+    title: Luke Mallon
+    subtitle: Thingamabob
+    buttons:
+    - name: Posts
+      url: /posts
+    - name: Archives
+      url: /archives
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/nalum"
+    - name: "gitlab"
+      url: "https://gitlab.com/nalum"
+    - name: "itchio"
+      url: "https://nalum.itch.io"
+    - name: "keybase"
+      url: "https://keybase.io/nalum"
+    - name: "kofi"
+      url: "https://ko-fi.com/nalum"
+    - name: "liberapay"
+      url: "https://liberapay.com/nalum"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/nalum"
+    - name: "mastodon"
+      url: "https://fosstodon.org/@nalum"
+    - name: "twitter"
+      url: "https://www.twitter.com/nalum"
+    - name: "youtube"
+      url: "http://www.youtube.com/channel/UCw4ncYRPiNiL_H8_4eD8tyw"
+
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
