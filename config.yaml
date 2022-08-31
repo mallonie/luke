@@ -4,6 +4,14 @@ title: Luke Mallon
 theme: PaperMod
 paginate: 5
 
+enabledRobotsTXT: true
+  #buildDrafts: true
+  #buildFuture: true
+  #buildExpired: true
+
+minify:
+  minifyOutput: true
+
 menu:
   main:
   - identifier: archives
@@ -27,6 +35,7 @@ params:
   env: production
   title: Luke Mallon
   description: Thingamabob
+  comments: true
   author: 
   - "Luke Mallon"
   DateFormat: 2006-01-02
@@ -40,36 +49,39 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   defaultTheme: dark
-  profileMode:
-    enabled: true
-    title: Luke Mallon
-    subtitle: Thingamabob
-    buttons:
-    - name: Posts
-      url: /posts
-    - name: Archives
-      url: /archives
+  homeInfoParams:
+    Title: Luke Mallon
+    Content: Thingamabob
+      #profileMode:
+      #enabled: true
+      #title: Luke Mallon
+      #subtitle: Thingamabob
+      #buttons:
+      #- name: Posts
+      #url: /posts
+      #- name: Archives
+      #url: /archives
   socialIcons:
-    - name: "github"
-      url: "https://github.com/nalum"
-    - name: "gitlab"
-      url: "https://gitlab.com/nalum"
-    - name: "itchio"
-      url: "https://nalum.itch.io"
-    - name: "keybase"
-      url: "https://keybase.io/nalum"
-    - name: "kofi"
-      url: "https://ko-fi.com/nalum"
-    - name: "liberapay"
-      url: "https://liberapay.com/nalum"
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/nalum"
-    - name: "mastodon"
-      url: "https://fosstodon.org/@nalum"
-    - name: "twitter"
-      url: "https://www.twitter.com/nalum"
-    - name: "youtube"
-      url: "http://www.youtube.com/channel/UCw4ncYRPiNiL_H8_4eD8tyw"
+  - name: "github"
+    url: "https://github.com/nalum"
+  - name: "gitlab"
+    url: "https://gitlab.com/nalum"
+  - name: "itchio"
+    url: "https://nalum.itch.io"
+  - name: "keybase"
+    url: "https://keybase.io/nalum"
+  - name: "kofi"
+    url: "https://ko-fi.com/nalum"
+  - name: "liberapay"
+    url: "https://liberapay.com/nalum"
+  - name: "linkedin"
+    url: "https://www.linkedin.com/in/nalum"
+  - name: "mastodon"
+    url: "https://fosstodon.org/@nalum"
+  - name: "twitter"
+    url: "https://www.twitter.com/nalum"
+  - name: "youtube"
+    url: "http://www.youtube.com/channel/UCw4ncYRPiNiL_H8_4eD8tyw"
 
 outputs:
   home:
