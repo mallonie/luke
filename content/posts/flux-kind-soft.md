@@ -6,20 +6,20 @@ date: 2022-02-28
 
 > Originally post to [hackmd.io](https://hackmd.io/@nalum/flux-with-kind-and-soft-serve)
 
-This article covers getting a local [Kind](kind.sigs.k8s.io "Kind Website") cluster
-setup with [Flux](fluxcd.io "Flux Website") and the self hosted git server
-[Soft Serve](github.com/charmbracelet/soft-serve "Soft Serve GitHub").
+This article covers getting a local [Kind](https://kind.sigs.k8s.io "Kind Website") cluster
+setup with [Flux](https://fluxcd.io "Flux Website") and the self hosted git server
+[Soft Serve](https://github.com/charmbracelet/soft-serve "Soft Serve GitHub").
 
 ## Requirements
 
 You will need to have the following installed:
 
-- `docker` [installation](docs.docker.com/get-docker/)
-- `kubectl` [installation](kubernetes.io/docs/tasks/tools/#kubectl)
-- `kustomize` [installation](kubectl.docs.kubernetes.io/installation/kustomize/)
-- `flux` [installation](fluxcd.io/docs/installation/ "Install Flux")
-- `kind` [installation](kind.sigs.k8s.io/#installation-and-usage "Install Kind")
-- `soft` [installation](github.com/charmbracelet/soft-serve#installation "Install Soft Serve")
+- `docker` [installation](https://docs.docker.com/get-docker/)
+- `kubectl` [installation](https://kubernetes.io/docs/tasks/tools/#kubectl)
+- `kustomize` [installation](https://kubectl.docs.kubernetes.io/installation/kustomize/)
+- `flux` [installation](https://fluxcd.io/docs/installation/ "Install Flux")
+- `kind` [installation](https://kind.sigs.k8s.io/#installation-and-usage "Install Kind")
+- `soft` [installation](https://github.com/charmbracelet/soft-serve#installation "Install Soft Serve")
 
 ### Assumptions
 
