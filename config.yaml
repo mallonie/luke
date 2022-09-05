@@ -4,6 +4,9 @@ title: Luke Mallon
 theme: PaperMod
 paginate: 5
 
+permalinks:
+  posts: /posts/:year-:month/:title/
+
 enabledRobotsTXT: true
 enableEmoji: true
   #buildDrafts: true
