@@ -6,13 +6,18 @@
 	--border-shadow: rgb(0,0,0);
 }
 
-.post-entry, ul.terms-tags li a {
+.post-entry {
 	box-shadow: 0px 1px 3px var(--border-shadow), 0px 1px 3px var(--border-shadow);
 	transition: all 0.2s cubic-bezier(.25,.8,.25,1);
 }
 
-.post-entry:hover, ul.terms-tags li:hover a {
+.post-entry:hover {
 	box-shadow: 0px 3px 9px var(--border-shadow), 0px 3px 9px var(--border-shadow);
 	transition: all 0.2s cubic-bezier(.25,.8,.25,1);
+	transform: scale(1.01);
+}
+
+.post-entry:active {
+	transform: scale(.96) !important;
 }
 
