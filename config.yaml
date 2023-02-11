@@ -51,6 +51,7 @@ params:
   ShareButtons:
   - twitter
   - linkedin
+  - reddit
   ShowReadingTime: true
   ShowToc: true
   ShowBreadCrumbs: true
@@ -77,8 +78,6 @@ params:
     url: "https://www.linkedin.com/in/nalum"
   - name: "mastodon"
     url: "https://mastodon.ie/@nalum"
-  - name: "twitter"
-    url: "https://www.twitter.com/nalum"
   - name: "youtube"
     url: "http://www.youtube.com/@nalumgames"
 
