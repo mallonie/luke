@@ -11,8 +11,6 @@ tags:
 - compute blade
 ---
 
-# Compute Blade: PXE Boot
-
 I recently received my Compute Blade kickstarter backer rewards, enough for a 4 node cluster. This document is to outline
 what I needed to do in order to have them PXE boot.
 
