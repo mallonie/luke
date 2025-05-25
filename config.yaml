@@ -2,7 +2,8 @@ baseURL: https://luke.mallon.ie/
 languageCode: en-ie
 title: Luke Mallon
 theme: PaperMod
-paginate: 5
+pagination: 
+  pagerSize: 5
 
 permalinks:
   posts: /posts/:year-:month/:title/
