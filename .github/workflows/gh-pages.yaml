@@ -17,7 +17,7 @@ jobs:
     - name: setup hugo
       uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: 'latest'
+        hugo-version: '0.146.7'
     - name: build
       run: hugo --minify
     - name: deploy
