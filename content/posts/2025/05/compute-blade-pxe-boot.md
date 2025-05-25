@@ -16,11 +16,11 @@ what I needed to do in order to have them PXE boot.
 
 ## netboot.xyz
 
-To start with I have deployed an instance on [netboot.xyz](https://netboot.xyz) to my network, in my case it's running
+To start with I have deployed an instance of [netboot.xyz](https://netboot.xyz) to my network, in my case it's running
 on a Raspberry Pi 3b that I already have on my network.
 
-It was a pretty simple job to get an instance running as it already has container images that can be run with you chosen
-runtime, in this case docker. I use the following script to run, this is fairly simple and can be used to update the image
+It was a pretty simple job to get an instance running as it already has container images that can be run with your chosen
+runtime, in this case docker. I use the following script to run it, this is fairly simple and can be used to update the image
 by running the script again:
 
 ```bash
@@ -60,7 +60,7 @@ The following settings are what I have that enables my Compute Blades to PXE boo
 - `dhcp-match=set:amd64,option:client-arch,9`
 - `dhcp-boot=tag:amd64,netboot.xyz.efi,${SERVER_DOMAIN},${SERVER_IP}`
 
-I believe `${SERVER_DOMAIN}` is not required in which case you should keep the `,` so it would look something like this:
+I believe `${SERVER_DOMAIN}` is not required, in which case you should keep the `,` so it would look something like this:
 `dhcp-boot=tag:arm64,netboot.xyz-arm64.efi,,${SERVER_IP}`
 
 Through messing around with these I have found that the CM4 requires that `pxe-service` is set as above or it will not
@@ -72,7 +72,7 @@ examples just to show how you can setup `x86` and `x86_64` architectures.
 
 At this point if you boot the Compute Blade you should see that it tries to hit the PXE server as configured but will
 be looking for and not finding `start.elf` and `fixup.dat` or `start4.elf` and `fixup4.dat`, so we need to provide these
-files. Here is an example of what this might look like:
+files. Here is an example of what this failing might look like:
 
 ```
   board: rev ...
@@ -100,16 +100,16 @@ TFTP 1: File not found
 Firmware not found
 ```
 
-You can get a copy of these files from the [official firmware](https://github.com/raspberrypi/firmware) or 
-Uptime Industries provide a [custom build](https://github.com/uptime-industries/compute-blade-cm4-uefi), which I have used.
+You can get a copy of these files from the [official firmware](https://github.com/raspberrypi/firmware) or Uptime Industries
+provide a [custom build](https://github.com/uptime-industries/compute-blade-cm4-uefi), which I have used.
 
 Once you have downloaded the firmware you should add the files to the config directory of the netboot.xyz instance. There
 are two ways that you can do this:
 - directly into `/mnt/config/menus`, this will mean any raspberry pi system will pick up these files
 - into a sub directory, `/mnt/config/menus/abc123`, where `abc123` is the serial number of the device you want to grab these specific files
 
-Now that you have these in place when you boot the Compute Blade it will grab these files then grab the configured `efi`
-file in `dhcp-boot`. Where you will be able to see something like the following:
+Now that you have these in place when you boot the Compute Blade it will grab these files, then grab the configured `efi`
+file in `dhcp-boot`. You will eventually see something like the following on the Compute Blade:
 
 ![Netboot.xyz Menu](/images/menu.jpg "Netboot.xyz Menu")
 
